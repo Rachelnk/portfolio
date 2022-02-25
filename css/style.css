@@ -1,6 +1,10 @@
 /* apply a natural box layout model to all elements, but allowing components to change */ 
 html 
 { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
+body {
+  height: auto;
+}
+
 .header {
   background-image: url("../img/progimage4.jpeg");
   padding: 40px;
@@ -10,7 +14,7 @@ html
   font-size: 30px;
   margin-bottom: 10px;
 }
-.about-heading {
+.about-heading, .projects-heading {
   text-align: center;
   color: black;
   font-size: 30px;
@@ -26,4 +30,13 @@ font-size: 20px;
 li {
   text-align: left;
   list-style-position: inside;
+}
+.column {
+  padding-left: 150px ;
+  border-top-color: blue;
+  font-size: 20px;
+  column-count: 2;
+  column-width: 90px;
+  
+
 }
