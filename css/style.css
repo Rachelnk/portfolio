@@ -21,19 +21,26 @@ body {
   font-size: 30px;
   padding: 20px;
   padding-right: 100px;
+  border-color: white;
 }
 .about-me {
   color: white;
   margin-left: 250px;
   margin-right: 100px;
-font-size: 20px;
-
+  font-size: 20px;
+  background: blue;
 }
 li {
   text-align: left;
   list-style-position: inside;
 }
+.projects {
+  margin-left: 250px;
+  margin-right: 100px;
+  background: blue;
+}
 .column {
+  
   padding-left: 150px ;
   border-top-color: blue;
   font-size: 20px;
