@@ -2,15 +2,15 @@
 html 
 { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
 body {
-  background-color: black;
+  background-color: whitesmoke;
   height: auto;
 }
 
 .header {
-  background-image: url("../img/progimage4.jpeg");
+  background-image: url("../img/bannerbackground.jpg");
   padding: 40px;
   text-align: center;
-  background: #85e2d0;
+  /* background: #85e2d0; */
   color: black;
   font-size: 30px;
   margin-bottom: 10px;
@@ -21,14 +21,14 @@ body {
   font-size: 30px;
   padding: 20px;
   padding-right: 100px;
-  border-color: white;
 }
 .about-me {
   color: white;
   margin-left: 250px;
   margin-right: 100px;
   font-size: 20px;
-  background: blue;
+  background: black;
+  padding-bottom: 10px;
 }
 li {
   text-align: left;
@@ -37,16 +37,16 @@ li {
 .projects {
   margin-left: 250px;
   margin-right: 100px;
-  background: blue;
+  background: black;
 }
 .column {
   
   padding-left: 150px ;
-  border-top-color: blue;
   font-size: 20px;
   column-count: 2;
   column-width: 90px;
   color: white;
+  padding-bottom: 20px;
   
 
 }
