@@ -17,7 +17,10 @@
 * Clone the repository to your local machine. e.g. `$ git clone remote URL`
 * In the command line type cd and the folder name where you've cloned the repo in your local machine.
 * In this folder open index.html, this is website's landing page.You can also see other folders for images, css files and JS files.
-##
+
+## Bugs
+There are no known bugs at the moment.
+
 ## Technologies used
 * HTML
 * CSS
